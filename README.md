@@ -32,7 +32,7 @@ Before running this script, ensure that you have the following software installe
     python main.py
 
 4. **Demo**:
-![Test Running Locally](assets/twitch_test_demo.gif)
+![Test Running Locally](assets/test_twitch.gif)
 
 5. **Run the test**:
    pytest test_twitch.py
