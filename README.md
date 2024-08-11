@@ -31,6 +31,10 @@ Before running this script, ensure that you have the following software installe
 3. **Running the script**:
     python main.py
 
-4. **Results**:
+4. **Demo**:
+![Test Running Locally](assets/twitch_test_demo.gif)
+
+5. **Run the test**:
+   pytest test_twitch.py
     
 
