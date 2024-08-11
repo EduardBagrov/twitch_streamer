@@ -7,7 +7,7 @@ from pages.popup_page import PopupPage
 
 @pytest.fixture
 def driver():
-    driver = webdriver.Chrome()  # Ensure the ChromeDriver is installed and available in PATH
+    driver = webdriver.Chrome()
     driver.get("https://m.twitch.tv")
     yield driver
     driver.quit()
