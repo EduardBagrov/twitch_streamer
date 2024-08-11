@@ -16,9 +16,11 @@ Before running this script, ensure that you have the following software installe
 - **Python**: Version 3.6 or higher. Download and install from [python.org](https://www.python.org/downloads/).
 - **Google Chrome**: Make sure the latest version of Google Chrome is installed. Download from [google.com/chrome](https://www.google.com/chrome/).
 
+
 ## Setup Instructions
 
 1. **Clone the Repository**:
+   
    Clone this repository to your local machine using Git:
 
    ```bash
@@ -26,15 +28,23 @@ Before running this script, ensure that you have the following software installe
    cd twitch-streamer
 
 2. **Install Python Packages**:
+
     pip install -r requirements.txt
 
+
 3. **Running the script**:
+   
     python main.py
 
+
 4. **Demo**:
+   
 ![Test Running Locally](assets/test_twitch.gif)
 
+
 5. **Run the test**:
+    
    pytest test_twitch.py
+
     
 
