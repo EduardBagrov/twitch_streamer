@@ -32,19 +32,15 @@ Before running this script, ensure that you have the following software installe
     pip install -r requirements.txt
 
 
-3. **Running the script**:
+3. **Run the test**:
    
-    python main.py
+    pytest tests/test_twitch.py -v
 
 
 4. **Demo**:
    
 ![Test Running Locally](assets/test_twitch.gif)
 
-
-5. **Run the test**:
-    
-   pytest test_twitch.py
 
     
 
